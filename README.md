@@ -28,20 +28,26 @@ Una API REST diseñada para gestionar la información de una organización ficti
 ## 🌐 Endpoints utilizados
 
 ### 📁 Servicios
+Obtener todos los servicios:
 ```bash
-GET     /lafamiglia/servicios         → Obtener todos los servicios
+GET http://172.17.22.132:8081/lafamiglia/servicios
 ```
+Obtener un servicio por ID:
 ```bash
-GET     /lafamiglia/servicios/{id}    → Obtener un servicio por ID
+GET http://172.17.22.132:8081/lafamiglia/servicios/{id}  
 ```
+Crear nuevo servicio:
 ```bash
-POST    /lafamiglia/servicios         → Crear nuevo servicio
+POST http://172.17.22.132:8081/lafamiglia/servicios 
 ```
+Modificar un servicio existente
 ```bash
-PUT     /lafamiglia/servicios/{id}    → Modificar un servicio existente
+PUT http://172.17.22.132:8081/lafamiglia/servicios/{id}  
 ```
+Eliminar un servicio
+
 ```bash
-DELETE  /lafamiglia/servicios/{id}    → Eliminar un servicio
+DELETE http://172.17.22.132:8081/lafamiglia/servicios/{id}  
 ```
 
 ### 🔫 Armas
