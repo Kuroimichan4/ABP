@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/members")
+@RequestMapping("/lafamiglia/members")
 @CrossOrigin(origins = "*")
 public class MemberController {
 
