@@ -1,10 +1,4 @@
-# ABP – Proyecto Final
-
-## La Nostra Famiglia
-
-Una API REST diseñada para gestionar la información de una organización ficticia, conectada a una base de datos remota en un servidor Linux. Esta API permite consultar, registrar y administrar datos sobre miembros, rangos, armas, contactos, servicios y pedidos, y está pensada para integrarse con una web desarrollada en paralelo.
-
----
+# ABP – Proyecto Final La Nostra Famiglia
 
 ## 👥 Integrantes
 - Miriam Hernández – [@kuroimichan4](https://github.com/kuroimichan4)
@@ -14,9 +8,9 @@ Una API REST diseñada para gestionar la información de una organización ficti
 
 ---
 
-## 📝 Descripción del proyecto
+## 📝 Descripción del proyecto La Nostra Famiglia
 
-**La Nostra Famiglia** es una API desarrollada con Java + Spring Boot y conectada a una base de datos **MySQL** alojada en un servidor Linux.
+La Nostra Famiglia es una API REST desarrollada con Java + Spring Boot y conectada a una base de datos MySQL alojada en un servidor Linux. Esta API permite consultar, registrar y administrar datos sobre miembros, rangos, armas, contactos, servicios y pedidos, y está pensada para integrarse con una web desarrollada en paralelo.
 
 ### Objetivos:
 - Facilitar el acceso y gestión de información para una web corporativa.
