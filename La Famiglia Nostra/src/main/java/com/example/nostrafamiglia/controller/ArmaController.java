@@ -1,4 +1,5 @@
 package com.example.nostrafamiglia.controller;
+// Define las rutas y métodos (GET, POST, etc.) para interactuar con el frontend
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import com.example.nostrafamiglia.dto.ArmaDTO;

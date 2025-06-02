@@ -1,5 +1,7 @@
 package com.example.nostrafamiglia.service;
-// spuente entre base de datros y controlador que define lo que la app hace con los datos (como los métodos de un objeto)
+// spuente entre el repositorio (CRUD) y controlador que define lo que la app hace con los datos (como los métodos de un objeto o mas bien los getters y setters)
+// vaya que define como entran y salen los datos del CRUD
+
 import com.example.nostrafamiglia.dto.ArmaDTO;
 import com.example.nostrafamiglia.model.Arma;
 import com.example.nostrafamiglia.repository.ArmaRepository;
@@ -42,6 +44,7 @@ public class ArmaService {
     public Optional<Arma> getArmaById(int id) { //Un envoltorio (wrapper) que puede contener o no un valor. Cuando buscas por ID (puede que no exista y dar error) devuelves Optional.empty().
         return armaRepository.findById(id);
     }
+    // Optional hace que no haya errores de null si no existe el id
 
     // Guardar o actualizar un arma
     public Arma saveArma(Arma arma) { // hace referencia a un objeto de tipo arma para guardarlo o modificarlo

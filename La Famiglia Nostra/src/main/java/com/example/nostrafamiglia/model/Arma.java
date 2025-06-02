@@ -1,5 +1,5 @@
 package com.example.nostrafamiglia.model;
-
+// Contiene lo que serían las tablas de la BBDD
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,14 +10,14 @@ import jakarta.persistence.SequenceGenerator;
 
 import java.math.BigDecimal;
 
-@Data
+@Data // genera getter's y setter's (Lbk)
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
+@Entity // marca una entidad JPA, es decir, un objeto que se corresponde con una tabla en la base de datos
 @Table(name = "armas")
 public class Arma {
 
-    @Id
+    @Id //la primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY) // *
     @Column(name = "id_arma")
     private int idArma;
