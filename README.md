@@ -71,23 +71,23 @@ DELETE  http://172.17.22.132:8081/lafamiglia/armas/{id}
 ### 🧑‍🚀 Members
 Obtener todos los miembros
 ```bash
-GET     http://172.17.22.132:8081/api/members                 
+GET     http://172.17.22.132:8081/lafamiglia/members                 
 ```
 Ver detalles de un miembro
 ```bash
-GET     http://172.17.22.132:8081/api/members/{id}           
+GET     http://172.17.22.132:8081/lafamiglia/members/{id}           
 ```
 Crear miembro
 ```bash
-POST    http://172.17.22.132:8081/api/members                 
+POST    http://172.17.22.132:8081/lafamiglia/members                 
 ```
 Modificar miembro
 ```bash
-PUT     http://172.17.22.132:8081/api/members/{id}            
+PUT     http://172.17.22.132:8081/lafamiglia/members/{id}            
 ```
 Eliminar miembro
 ```bash
-DELETE  http://172.17.22.132:8081/api/members/{id}             
+DELETE  http://172.17.22.132:8081/lafamiglia/members/{id}             
 ```
 
 
